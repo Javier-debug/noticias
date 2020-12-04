@@ -1,0 +1,10 @@
+<div>
+  <h1>Todas las noticias</h1>
+  <div class="col-md-9">
+    <div class="row">
+      <div *ngFor="let neww of this.news;">
+        <app-card [neww]="neww"></app-card>
+      </div>
+    </div>
+  </div>
+</div>
